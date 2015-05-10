@@ -1,0 +1,24 @@
+{
+  "name": "ltc",
+  "version": "1.0.0",
+  "description": "Linear/Logitudinal Time Code (LTC) Library Bindings for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dasantonym/node-ltc.git"
+  },
+  "author": "Anton Koch <antonymousfeedback@gmail.com> (http://htmhell.de)",
+  "license": "LGPL-3",
+  "bugs": {
+    "url": "https://github.com/dasantonym/node-ltc/issues"
+  },
+  "homepage": "https://github.com/dasantonym/node-ltc",
+  "dependencies": {
+    "bindings": "^1.2.1",
+    "cmake-js": "^0.10.4",
+    "nan": "^1.8.4"
+  }
+}
