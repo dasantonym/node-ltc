@@ -29,6 +29,7 @@ install:
   - npm install
 
 before_script:
-  - sudo apt-get purge cmake
+  - sudo apt-get purge cmake wget build-essential
+  - rm -rf libltc-1.1.3
 
 script:
